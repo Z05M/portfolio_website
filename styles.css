@@ -1,1 +1,22 @@
-footer {text-align: center; font-size: large;}
+footer {
+    text-align: center;
+    font-size: large;
+}
+
+#bc1 {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    width: 700px;
+    border-radius: 50px;
+    padding: 20px
+}
+
+nav {
+    text-align: center;
+}
