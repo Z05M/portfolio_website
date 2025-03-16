@@ -6,131 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Home Page</title>
-    <style>
-        /* General Styles */
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        header {
-            background-color: #DD5471; /* اللون الجديد */
-            color: white;
-            padding: 40px 0;
-            text-align: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        header p {
-            font-size: 50px;
-            font-weight: bold;
-            margin: 0;
-        }
-
-        header h3 {
-            font-size: 28px;
-            font-weight: 300;
-            margin: 10px 0;
-        }
-
-        /* Navbar Styles */
-        nav {
-            margin-top: 20px;
-        }
-
-        .navbar {
-            background-color: #DD5471; /* اللون الجديد */
-            border: none;
-            color: white;
-            padding: 12px 24px;
-            font-size: 16px;
-            cursor: pointer;
-            margin: 0 10px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-
-        .navbar:hover {
-            background-color: #FF758F; /* درجة أفتح للون */
-            transform: scale(1.1);
-        }
-
-        .navbar a {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        /* Hero Section */
-        .hero {
-            text-align: center;
-            padding: 40px;
-            background-color: #fff;
-            margin: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .hero p {
-            font-size: 20px;
-            line-height: 1.8;
-            color: #555;
-        }
-
-        .hero button {
-            background-color: #DD5471; /* اللون الجديد */
-            color: white;
-            padding: 12px 40px;
-            font-size: 18px;
-            border-radius: 25px;
-            cursor: pointer;
-            margin-top: 20px;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-
-        .hero button:hover {
-            background-color: #FF758F; /* درجة أفتح للون */
-            transform: scale(1.1);
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #DD5471; /* اللون الجديد */
-            color: white;
-        }
-
-    </style>
 </head>
 
 <body>
-    <header>
+    <header style="text-align: center;">
+
         <nav>
             <button class="navbar" onclick="location.href='index.html'">Home</button>
             <button class="navbar" onclick="location.href='about.html'">About</button>
             <button class="navbar" onclick="location.href='Contact.html'">Contact</button>
             <button class="navbar" onclick="location.href='Projects.html'">Projects</button>
+
         </nav>
 
-        <p>Zaid Matar</p>
+
+
+
+        <p style="font-size: 50px;">Zaid Matar</p>
         <h3>Web Developer</h3>
+
     </header>
-
     <!-- Hero Section-->
-    <div class="hero">
-        <p>Hi there, I'm Zaid Matar! Feel free to explore my page!</p>
-        <p>I'm a passionate beginner web developer with a strong interest in front-end design. My goal is to create websites that are both aesthetically pleasing and easy to use.</p>
-        <button><a href="projects.html" style="color: white;">View My Work</a></button>
+    <div style="text-align: center;">
+        <P>Hi there, I'm Zaid Matar! Feel free to explore my page!</P>
+        <P>I'm a passionate beginner web developer with a strong interest in front-end design. My goal is to create
+            websites that are both aesthetically pleasing and easy to use. </P>
+        <button class="navbar"><a href="projects.html" style="color: white; width: 80px;">View My Work</a></button>
     </div>
-
     <hr>
 
-    <footer>
-        &copy; 2025 Zaid Matar. All rights reserved.
-    </footer>
+    <footer> &copy; 2025 Zaid Matar. All rights reserved.</footer>
 </body>
 
 </html>
