@@ -5,9 +5,6 @@ footer {
     font-size: large;
 }
 
-#bc1 {
-    text-align: center;
-}
 
 .center {
     display: block;
@@ -129,3 +126,9 @@ a {
     margin-left: 50px;
 }
 ul{ list-style: none;}
+#persinl{
+    border: 1px solid #DD5471;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
