@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 footer {
     text-align: center;
     font-size: large;
@@ -31,5 +33,86 @@ nav {
     padding: 20px;
 }
 
-.textbox {
+.ui {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 356;
+    font-size: 54px;
+}
+
+#textcolor {
+
+    color: #DD5471;
+}
+
+#para {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+    width: 500px;
+    margin-top: -12px;
+}
+
+#dive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputtextbox {
+    width: 545px;
+    height: 50px;
+    margin: 20px;
+border-width: 1px;
+    border: #E0E0E0 solid;
+    font-size: 14px;
+    padding-left: 20px;
+    color: gray;
+    display: block;
+    font-family: 'Montserrat';
+}
+
+#Clicksend {
+    border: none;
+    width: 573px;
+    height: 50px;
+    background-color: #DD5471;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    
+}
+
+.select {
+    width: 573px;
+    height: 50px;
+    margin: 20px;
+    border: 1px;
+    border-width: 1px;
+    border: #E0E0E0 solid;
+    font-size: 14px;
+    padding-left: 20px;
+    color: black;
+    display: block;
+    font-family: 'Montserrat';
+}
+
+:link{ color: #DD5471;
+}
+a {text-decoration: none;}
+
+.navbar{
+    color: whitesmoke;
+    background-color: #DD5471;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+ height: 30px;
+ font-family: Montserrat;
+font-size: bold;
+cursor: pointer;
 }

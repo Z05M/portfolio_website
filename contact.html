@@ -4,38 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
+    <header>
+        <nav>
+            <button class="navbar" onclick="location.href='index.html'">Home</button>
+            <button class="navbar" onclick="location.href='about.html'">About</button>
+            <button class="navbar" onclick="location.href='Contact.html'">Contact</button>
+        </nav>
 
-    <form>
-        <div style="text-align: center; font-size: 20px; ">
-            <Label>Name</Label>
-            <br>
-            <input type="text" class="textbox">
-            <br>
-            <Label>Email</Label>
-            <br>
-            <input type="email" class="textbox">
-            <br>
-            <Label>Message</Label>
-            <br>
-            <textarea></textarea>
-            <br>
-            <br>
-            <br>
 
-            <button>Subnit</button>
-        </div>
-    </form>
-    <p style="text-align: center;"><a href="mailto:Zaid.m@samaalasima.com">Zaid.m@samaalasima.com</a></p>
-    <p style="text-align: center;">+9647812645218</p>
-    <footer id="bc1" style="text-align: center; padding-top: 50px;">
-        <button><a href="index.html">Back To Home</a></button>
-    </footer>
+    </header>
+
+    <div id="dive">
+        <h1 class="ui"><b>Get in <span id="textcolor">Touch</span></b></h1>
+        <p id="para">Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
+            molestie vel, ornare non id blandit netus.
+        </p>
+
+        <section style="text-align: center;">
+            <input type="text" class="inputtextbox" placeholder="Name" style="border-width: 1px;">
+            <input type="text" class="inputtextbox" placeholder="Email" style="border-width: 1px;">
+            <input type="text" class="inputtextbox" placeholder="Phone Number" style="border-width: 1px;">
+            <select class="select" part="" style="border-width: 1px;">
+                <option disabled selected>
+                    How did you find us?
+                </option>
+                <option>
+                    Facebook
+                </option>
+                <option>
+                    Instagram
+                </option>
+                <option>
+                    X
+                </option>
+            </select>
+        </section>
+        <button id="Clicksend" style="cursor:pointer;"><b>SEND</b></button>
+
+        <footer style="margin:60px ; display: flex;">
+
+            <div
+                style="display: flex; align-items: flex-start; gap: 15px; font-family: Montserrat; padding-right: 50px;">
+                <img src="img/phone.png" style="width: 28px; height: 28px;">
+                <div style="display:flex; align-items:flex-start;flex-direction: column;">
+                    <span style="font-weight: bold; font-size: 13px; ;font-weight: 550;">PHONE</span>
+                    <span style="color:#DD5471 ;font-size: 13px;">7812645218</span>
+                </div>
+            </div>
+            <div
+                style="display: flex; align-items: flex-start;font-family: Montserrat;  align-items: center; gap: 15px;padding-right: 50px;">
+                <img src="img/location.png" width="28px" height="28px">
+                <div style="display: flex; flex-direction: column;align-items:flex-start;">
+                    <span style=" font-size: 13px;font-weight: 550;">ADDRESS</span>
+                    <span style="color:#DD5471 ;font-size: 13px;">Dubai,UAE</span>
+                </div>
+            </div>
+            <div style="display: flex; gap: 15px;font-family: Montserrat; align-items: flex-start;">
+                <img src="img/email.png" width="28px" height="28px">
+                <div style="display: flex; flex-direction: column;align-items:flex-start;">
+                    <span style="gap: 50;font-size: 13px; font-weight: 550;">EMAIL</span>
+                    <SPAN style="color:#DD5471 ;font-size: 13px;"><a
+                            href="mailto:Zaidm@samaalasima.com">Zaidm@samaalasima.com</a></SPAN>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
